@@ -27,11 +27,7 @@ int main()
 			std::cout << mas[i][j] << std::endl;
 		}
 	return sum;
-	/*for (int i = 0; i < N; i++) {
-		for (int j = 0; j < M; j++) {
-			std::cout << mas[i][j] << "\t";
-		}
-	}std::cout << std::endl;*/
+	
 }
 
 
