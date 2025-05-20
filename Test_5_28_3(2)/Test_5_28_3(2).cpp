@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 #include <string>
 using namespace std;
 
@@ -18,23 +18,23 @@ void bracketsTester() {
         else
         {
             continue;
-        } 
+        }
     }
     if (OpenBracketCounter == 0 && CloseBracketCounter == 0) {
         cout << "Без дужок";
     }
     else if (OpenBracketCounter == CloseBracketCounter) {
-            cout << "правильно";
+        cout << "правильно";
     }
     else
     {
         cout << "неправильно";
-    }   
+    }
 }
 
 int main()
 {
     bracketsTester();
-    
+
     return 0;
 }

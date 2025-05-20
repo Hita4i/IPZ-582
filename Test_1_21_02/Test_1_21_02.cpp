@@ -1,5 +1,5 @@
 ﻿#include <iostream>
-#include <ctime>
+//#include <ctime/*>
 
 int main()
 {
